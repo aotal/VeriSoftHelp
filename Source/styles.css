@@ -1,0 +1,428 @@
+ul, ol, li, h1,h2,h3,h4 {margin:0;padding:0;}
+body {
+	font-size:10pt;
+	font-family:Arial, Helvetica, Verdana, Tahoma;
+    background-color: #f9f9f9;
+}
+td {
+    font-size:10pt;
+	font-family:Arial, Helvetica, Verdana, Tahoma;
+}
+.footnote-ct {
+    margin-top:25px;
+    border-top:1px solid black;
+    padding-top:5px;
+}
+.container-cms .content-ct {
+    margin-left:20px;
+}
+/* ############### CONTENT - GENERAL ###############*/
+.INSERTED { background-color:#8efe5d; }
+.fulltext-highlight { background-color:yellow; }
+.DELETED { background-color:#f35555; }
+.media-theme.INSERTED { border:4px solid #8efe5d; }
+.media-theme.DELETED { border:4px solid #f35555; }
+
+h1 {
+	font-size:14pt;
+	padding:0px 0px 10px 0px;
+    color: #0000ff;
+}
+p {
+    margin:0;
+}
+.par0 {
+	margin:0 0 12pt 0;
+    line-height:14pt;
+}
+.par-table {
+    line-height:14pt;
+}
+td .par0 {
+    margin-bottom:0px;
+}
+div p.par0 {
+    min-height: 12pt;
+}
+.highlight {
+	background-color : #F6DE88;
+}
+.label {
+	font-weight:bold;
+    margin:24pt 0 12pt 0;
+    font-size: 12pt;
+    line-height:14pt;
+}
+.code  { 
+	font-family: "Courier New", Courier, monospace;
+}
+.media {
+    margin-bottom: 12pt;
+    margin-left: 18pt;
+}
+li.Media, li.MediaContinue {
+    margin-left:0;
+}
+table.content-table-noborder td .media {
+    margin-bottom: 0pt;
+    margin-top: 0pt;
+    margin-left:0;
+}
+table.content-table-border td .media {
+    margin-left:0;
+    margin-bottom: 6pt;
+    margin-top: 6pt;
+}
+td.content-tableBody, td.content-tableHead {
+    padding:5px 10px 5px 10px;
+}
+.content-tableTitle {
+    margin-top:6pt;
+    line-height: 14pt;
+}
+.media-theme {
+	margin:0;
+}
+.media-theme-inline.has-border, .media-theme span.has-border {
+	
+}
+.media-caption {
+	margin-top: 6pt;
+	line-height: 14pt;
+}
+.block-standard {
+    margin-bottom:10px;
+}
+.enum-label-cell {
+    vertical-align:top;padding-left:2px;
+}
+li.Media .enum-label-cell, li.MediaContinue .enum-label-cell, li.MediaNumeric .enum-label-cell, li.MediaNumericContinue .enum-label-cell, li.NumericBold .enum-label-cell, li.NumericBoldContinue .enum-label-cell, li.AlphaBold .enum-label-cell {
+    font-weight:bold;
+}
+ul,ol {
+    padding-left:30px;
+    margin:12px 0 12px 3px;
+}
+ul.first, ol.first {
+    margin-top:0;
+}
+ul.last, ol.last {
+    margin-bottom:0;
+}
+li ul, li ol {
+    margin:0;
+    display:inline-block;
+}
+ul.enum-standard {
+    list-style-image:none;
+    list-style-type:square;
+    line-height: 14pt;
+}
+ul.Point {
+    list-style-image:url(smallgray.gif);
+    line-height: 14pt;
+}
+ul.enum-standard.Line, ul.enum-standard.Line0pt, ul.enum-standard.Line6pt, ul.enum-standard.LineMedia, ul.enum-standard.Media, ul.enum-standard.MediaContinue, 
+ol.enum-standard.MediaNumeric, ol.enum-standard.MediaNumericContinue, ol.enum-standard.NumericBold, ol.enum-standard.NumericBoldContinue, ol.enum-standard.AlphaBold {
+    list-style-image:none;
+    list-style-type:none;
+    padding-left:0;
+    margin-left:6px;
+}
+
+ol.enum-standard.MediaNumeric, ol.enum-standard.MediaNumericContinue, ul.enum-standard.Media, ul.enum-standard.MediaContinue, ul.enum-standard.LineMedia {
+    margin-left:18pt;
+}
+
+ol.enum-standard.MediaNumeric ul, ol.enum-standard.MediaNumericContinue ul, ul.enum-standard.Media ul, ul.enum-standard.MediaContinue ul, ul.enum-standard.LineMedia ul{
+    margin-top:0pt;
+    margin-bottom:0pt;
+}
+
+ul ul.enum-standard.Line, 
+ol ul.enum-standard.Line, 
+ul ul.enum-standard.Line0pt, 
+ol ul.enum-standard.Line0pt, 
+ul ul.enum-standard.Line6pt, 
+ol ul.enum-standard.Line6pt, 
+ul ul.enum-standard.LineMedia, 
+ol ul.enum-standard.LineMedia, 
+ul ul.enum-standard.Media, 
+ol ul.enum-standard.Media, 
+ul ul.enum-standard.MediaContinue, 
+ol ul.enum-standard.MediaContinue, 
+ul ol.enum-standard.MediaNumeric, 
+ol ol.enum-standard.MediaNumeric, 
+ul ol.enum-standard.MediaNumericContinue, 
+ol ol.enum-standard.MediaNumericContinue, 
+ul ol.enum-standard.NumericBold, 
+ol ol.enum-standard.NumericBold, 
+ul ol.enum-standard.NumericBoldContinue, 
+ol ol.enum-standard.NumericBoldContinue, 
+ul ol.enum-standard.AlphaBold,
+ol ol.enum-standard.AlphaBold {
+    margin-left:16px;
+}
+
+ul.Bullet {
+    list-style-image:none;
+    list-style-type:square;
+}
+ul.NoSymbol {
+    list-style-image:none;
+    list-style-type:none;
+}
+ul.Arrow {
+    list-style-image:url(Gray_Browse_Right.gif);
+}
+ol.Alpha, ul.Alpha {
+    list-style-image:none;
+    list-style-type:lower-alpha;
+}
+ol.Numeric {
+    list-style-image:none;
+    list-style-type:decimal;
+}
+li.enum-title {
+    list-style-image:none;
+    list-style-type:none;
+    margin-left:-33px;
+    padding-left:0;
+    margin-bottom:6pt;
+}
+ul.enum-standard.Line li.enum-title, ul.enum-standard.Line0pt li.enum-title, ul.enum-standard.Line6pt li.enum-title, ul.enum-standard.LineMedia li.enum-title, 
+ul.enum-standard.Media li.enum-title, ul.enum-standard.MediaContinue li.enum-title, ol.enum-standard.MediaNumeric li.enum-title, ol.enum-standard.MediaNumericContinue li.enum-title,
+ol.enum-standard.NumericBold li.enum-title, ol.enum-standard.NumericBoldContinue li.enum-title, ol.enum-standard.AlphaBold li.enum-title   {
+    margin-left:-6px;
+}
+li {
+    margin-top:12pt;
+    line-height:14pt;
+}
+ul.first li, ol.first li {
+    margin-top:0;
+}
+.enum-ct {
+    list-style-type:none;
+    list-style-image:none;
+    margin-bottom:0;
+    margin-top:0;
+}
+li.Line {
+    margin-top:12pt;
+}
+li.LineMedia, li.MediaNumeric, li.MediaNumericContinue, li.Media, li.MediaContinue {
+    margin-top:0pt;
+}
+li.Line0pt {
+    margin-top:0pt;
+}
+li.Line6pt {
+    margin-top:6pt;
+}
+li.line {
+    list-style-type:none;
+    list-style-image:none;
+}
+
+ul ul li, ol ul li, ul ul li.Line, ol ul li.Line {
+    margin-top:6pt;
+}
+ul.instruction {list-style-type:decimal;}
+.enum-element {}
+.step {}
+
+.notice-container {
+    margin-top:12px;
+    margin-bottom:12px;
+    padding:0;
+    border:1px solid black;
+}
+.notice-title {
+    border-bottom:1px solid black;
+    font-size:12pt; 
+    font-weight:bold;
+    text-transform:uppercase;
+    padding-left:49px;
+    background-repeat:no-repeat;
+    background-position:10px center;
+}
+.Danger .notice-title {
+    background-color:#ff0000;
+    color:#FFFFFF;
+    background-image:url(safety_alert_symbol_danger.gif);
+}
+.Caution .notice-title {
+    background-color:#ffff00;
+    background-image:url(safety_alert_symbol_caution.gif);
+}
+.Warning .notice-title {
+    background-color:#ff9800;
+    background-image:url(safety_alert_symbol_warning.gif);
+}
+.Note .notice-title {
+    padding-left:10px;
+}
+.Notice .notice-title{
+    padding-left:10px;
+    background-color:#0099ff;
+    color:#ffffff;
+}
+.notice-body {
+    padding:0px 10px 0px 10px;
+}
+.notice-body .par0 {
+    margin-top:3pt;
+    margin-bottom:3pt;
+    line-height:14pt;
+}
+.notice-end {clear:both;}
+
+.notice-icon {
+    display:none;
+}
+.notice-icon.custom-icon {
+    background-image:none;
+}
+/* ############### CONTENT - TABLES ###############*/
+.content-table-excel {
+	border-collapse:collapse;
+	padding:2px 2px 2px 2px;
+    margin:0 0 12pt 0;
+}
+.content-table-border {
+	border-collapse:collapse;
+	border:1px solid black;
+	width:100%;
+	table-layout:fixed;
+    margin:0 0 12pt 0;
+}
+.content-table-border.has-absolute-width {
+    width:auto;
+}
+.content-table-noborder {
+	padding:0 4px 0 0;
+	width:100%;
+	table-layout:fixed;
+    margin:0 0 12pt 0;
+}
+.content-table-noborder.has-absolute-width {
+    width:auto;
+}
+.content-table-caption {
+	font-weight:bold;
+	margin-top:4px;
+}
+.content-tableHead {
+	background-color:#d6d7d6;
+    font-weight:bold;
+    border:1px solid black;
+}
+.content-tableBody {
+    border:1px solid black;
+}
+.content-tableFirstRow {
+	background-color:#d6d7d6;
+}
+li.listWithNotice{ list-style: none !important; list-style-image:none !important; }
+/* ############### CONTENT - INLINE ###############*/
+a.link {
+    color:#0000ff;
+}
+a.link:visited {
+    color: #800080;
+}
+a.link:active {
+    color: #0000ff;
+}
+a.link:hover {
+    color:#0000ff;
+    text-decoration:underline;
+}
+.generateContents {
+	font-size:11px;
+	text-decoration:none;
+	line-height:18px;
+	background-color: #F9F9F9;
+}
+.invers {
+	text-decoration : overline;
+}
+.codeinline { 
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #000000;	
+}
+.emphasis {
+	font-weight:bold;
+}
+.italics {
+    font-style:italic;
+}
+.invalid {
+    text-decoration:line-through;
+}
+.dialog {
+    font-weight:bold;
+}
+.container-cms .dialog {
+    color:#004E98;
+}
+.container-cms .no-linebreak {
+    border:1px solid #004E98;
+}
+.lexicon {
+	color:green;
+}
+.media-legend-ct {
+    width:100%;
+    margin-top:12pt;
+    line-height:14pt;
+}
+.legend-ct {
+    width:100%;
+    margin:12pt 0 0 18pt;
+    line-height:14pt;
+}
+.legend-term, .media-legend-term {
+    vertical-align:top;
+	width:25px;
+}
+.media-legend-def {
+	
+}
+.container-cms .index-entry {color:Maroon;}
+.break {
+    display:none;
+}
+.container-cms .break {
+    display:block;
+    border:1px solid #99ccff;
+    margin-top:12pt;
+    margin-bottom:12pt;
+}
+
+/* ############### CONTENT - TITLEPAGE ###############*/
+.titlepage-version {
+	
+}
+.titlepage-title-theme, .titlepage-title  {
+	padding: 20px 5px;
+	font-size:18px;
+	font-weight:bold;
+}
+.container-titleimage {
+	margin-bottom:15px;
+}
+.container-titlepage {
+	
+}
+
+
+
+.titlepage-logo {
+	margin: 0 5px 5px 0;
+    float: right;
+}
+
+

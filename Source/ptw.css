@@ -1,0 +1,27 @@
+
+li .notice-container {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+li ul li, li ol li, li.line{
+    margin-bottom: 0 !important;
+    margin-top: 10px  !important;
+}
+.titlepage-title-theme, .titlepage-title { 
+    font-size: 30px !important; 
+} 
+.titlepage-logo { 
+    float: right !important; 
+    margin: 0 !important; 
+    position: absolute !important; 
+    right: 5px !important; 
+    top: 35px !important; 
+} 
+ .titlepage-logo .media-theme { 
+    float: right; 
+} 
+.titlepage-logo img { 
+    height: 30px; 
+    width: auto !important; 
+} 
