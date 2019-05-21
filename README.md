@@ -1,2 +1,3 @@
-# VeriSoftHelp
-Contenedor de ayuda de VeriSoft
+# Ayuda de VeriSoft (PTW)
+
+Repositorio como contenedor de los temas de ayuda de VeriSoft PTW
